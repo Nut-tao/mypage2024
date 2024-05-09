@@ -43,7 +43,7 @@ function Prev02(){
 
 function checkAnswer01(answer) {
    const result = document.getElementById('result');
-   if (answer === 'a') {
+   if (answer === 'ก') {
         result.textContent = "ถูกต้อง PIM ย่อมาจาก PIM";
         result.style.color = 'blue';
         s1=1;
@@ -56,7 +56,7 @@ function checkAnswer01(answer) {
 
 function checkAnswer02(answer2){
     const result2 = document.getElementById('result2');
-    if (answer2 === 'c'){
+    if (answer2 === 'ค'){
         result2.textContent = "ถูกต้อง วิทยาลัยอาชีวศึกษากาฬสินธุ์ มีชื่อย่อภาษาอังกฤษว่า KSVC";
         result2.style.color = 'blue';
         s2=1;
